@@ -220,7 +220,7 @@
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   justify-items: stretch;
   grid-gap: 0px;
-  border: 1px solid black;
+
   /* This is the parent of the activity 6 boxes. */
 }
 .red6 {
