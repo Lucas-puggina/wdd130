@@ -7,8 +7,8 @@ Fonts are separated by a | */
   /* change the values below to your colors from your palette */
   --primary-color: #297B5A   ;
   --secondary-color: #7DD1B8 ;
-  --accent1-color: white;
-  --accent2-color: ;
+  --accent1-color: #000;
+  --accent2-color: #fff;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon SC";
