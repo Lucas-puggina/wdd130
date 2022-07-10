@@ -10,7 +10,7 @@ body {
     }
 
     header {
-        background-color: #297B5A;
+        background-color: #297B5A ;
         color: azure;
         display: grid;
         grid-template-columns: 150px auto;
