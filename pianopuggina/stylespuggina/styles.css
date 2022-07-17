@@ -5,7 +5,7 @@
 body {
     align-content: center;
     max-width: 1600px;
-background-color: #7DD1B8 ;
+background-color: #297B5A ;
 font-family: "sans-serif", Helvetica, "IM Fell French Canon SC" ;
     font-size: 24px;
     margin: 0;
@@ -56,27 +56,34 @@ nav a {
 .second {
     display: grid;
     grid-column: 1ft 1ft 1ft 1ft 1ft 1ft;
-    grid-row: 1ft 1ft 1ft 1ft 1ft 1ft 1ft ;
+    grid-row: 1ft 1ft 1ft 1ft 1ft 1ft 1ft 1ft ;
     background-color: black;
     width: 100%;
     height: 600px;
     background-image: url(../images/family2.jpg);
+    padding-top: 100px;
+   
 }
 
 .title {
     
     grid-column: 1/6;
-    grid-row: 7/7;
+    grid-row: 8/8;
     text-align:center;
     color: azure;
+    padding-bottom: -50px;
 }
 
 
-.complement {
+.complement2 {
     margin-top: -50px;
-    margin-bottom: 100px;
     text-align: center;
     color: azure;
+   
+}
+
+.complement {
+    background-color: black;
 }
 
 main {
@@ -86,15 +93,14 @@ main {
 }
 
 .third{
-    width: 100%;
-    background-color: #297B5A;
+   max-width: 1600%;
+   background-color: #297B5A;
 }
 
-section.forth {
-
-    margin: center;
-    background-color: #7DD1B8 ;
+.help{
+    padding-top: 100px;
 }
+
 
 div.box {
     padding-top: 100px;
@@ -111,12 +117,32 @@ div.ball{
 	display: inline-block;
 }
 
+.container{
+    display:flex
 
-
-span {
-    color: azure
 }
 
+.LUCAS{
+    border-radius: 50%;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.LELIO{
+    border-radius: 50%;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.JUNIOR{
+    border-radius: 50%;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.card{
+    color: azure;
+}
 
 footer {
     display: flex;
@@ -124,7 +150,7 @@ footer {
     align-items: center;
     margin-top: 200px;
     padding: 25px 50px;
-    background-color: #297B5A  ;
+    background-color: black ;
     
 }
 
@@ -150,7 +176,9 @@ footer p {
     color: azure;
 }
 
+
 *new page*
+
 
 @import url('https://fonts.googleapis.com/css2?family=Anybody:wght@100&family=Signika+Negative&display=swap');
 
@@ -199,7 +227,7 @@ body {
     }
 
     #familia{
-        max-width: 1200px;
+        max-width: 1600px;
     }
 
     h1 {
@@ -219,7 +247,7 @@ body {
     }
 
     main {
-        max-width: 1200px;
+        max-width: 1600px;
         background-color: #297B5A;
         text-align: center;
     }
@@ -230,7 +258,7 @@ body {
         align-items: center;
         margin-top: 200px;
         padding: 25px 50px;
-        background-color: #297B5A  ;
+        background-color: black  ;
         
     }
 
@@ -255,3 +283,50 @@ body {
     footer p {
         color: azure;
     }
+
+    .tuning{
+        align-content: center;
+    }
+
+    .tune{
+        padding: top 50px;
+        padding-bottom: 50px;
+    }
+
+    .trans-img {
+        max-width: 900px;
+    }
+
+    .trans{
+        padding: top 50px;
+        padding-bottom: 50px;
+    }
+
+
+    .imun-img{
+        max-width: 900px;
+    }
+
+    .imuni {
+        padding: top 50px;
+        padding-bottom: 50px;
+    }
+    *page3*
+
+
+     .father-img {
+       max-width: 300px;
+     }
+
+     .container {
+        display:flex;
+        padding-top: 100px;
+     }
+
+     .txt {
+        color: azure;
+     }
+
+
+
+    
