@@ -53,6 +53,7 @@ nav a {
     padding: 35px;
 }
 
+
 .second {
     display: grid;
     grid-column: 1ft 1ft 1ft 1ft 1ft 1ft;
@@ -76,14 +77,16 @@ nav a {
 
 
 .complement2 {
-    margin-top: -50px;
+    margin-top: 0px;
     text-align: center;
     color: azure;
    
 }
 
 .complement {
-    background-color: black;
+    background-color: #297B5A;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 main {
@@ -94,11 +97,35 @@ main {
 
 .third{
    max-width: 1600%;
-   background-color: #297B5A;
+   background-color: #7DD1B8;
+   padding-top: 100px;
+   padding-bottom: 100px;
+
+}
+
+.container1{
+display: flex;
+background-color: white;
+padding-bottom: 100px;
+}
+
+.transport-img{
+    border-radius: 5%;
+    max-width: 400px;
+}
+
+.tune-img{
+    border-radius: 5%;
+    max-width: 400px;
+}
+
+.imunization-img {
+    border-radius: 5%;
+    max-width: 400px;
 }
 
 .help{
-    padding-top: 100px;
+    padding-top: 0px;
 }
 
 
@@ -124,20 +151,20 @@ div.ball{
 
 .LUCAS{
     border-radius: 50%;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 90px;
+    margin-right: 90px;
 }
 
 .LELIO{
     border-radius: 50%;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 90px;
+    margin-right: 90px;
 }
 
 .JUNIOR{
     border-radius: 50%;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 90px;
+    margin-right: 90px;
 }
 
 .card{
